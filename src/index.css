@@ -2,16 +2,16 @@
 
 @theme {
   /* Palette */
-  --color-sage: #7a9e8e;
-  --color-sage-light: #a8c4b8;
-  --color-sage-pale: #eaf2ee;
-  --color-sage-dark: #4d7a6a;
-  --color-ink: #1a2e25;
-  --color-ink-mid: #2d3a35;
-  --color-ink-soft: #4a5e55;
-  --color-gold: #c9a96e;
-  --color-gold-light: #e8d9c4;
-  --color-border: #dce8e2;
+  --color-sage: #6baed6;
+  --color-sage-light: #a8d4ea;
+  --color-sage-pale: #e8f4fa;
+  --color-sage-dark: #4a8fb0;
+  --color-ink: #1a2535;
+  --color-ink-mid: #2d3a50;
+  --color-ink-soft: #4a5a72;
+  --color-gold: #e8a0b4;
+  --color-gold-light: #f5d5e0;
+  --color-border: #d0e8f4;
 
   /* Fonts — Fraunces (warm, less serious) + DM Sans */
   --font-head: 'Fraunces', Georgia, serif;
@@ -23,7 +23,7 @@
   body {
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
-    color: #1a2e25;
+    color: #1a2535;
     background: #fff;
   }
   h1, h2, h3, h4 { font-family: var(--font-head); }
@@ -35,8 +35,8 @@
   /* Hero gradient */
   .hero-bg {
     background:
-      linear-gradient(155deg, rgba(26,46,37,.88) 0%, rgba(77,122,106,.74) 45%, rgba(122,158,142,.58) 100%),
-      radial-gradient(ellipse at 65% 40%, #4d7a6a 0%, #1a2e25 70%);
+      linear-gradient(155deg, rgba(26,37,53,.92) 0%, rgba(74,143,176,.78) 45%, rgba(107,174,214,.62) 100%),
+      radial-gradient(ellipse at 65% 40%, #4a8fb0 0%, #1a2535 70%);
   }
 
   /* Decorative diagonal stripe overlay */
@@ -46,7 +46,7 @@
     background: repeating-linear-gradient(
       135deg,
       transparent 0 22px,
-      rgba(122,158,142,.07) 22px 23px
+      rgba(107,174,214,.07) 22px 23px
     );
   }
   .tonal-stripes-dark {
@@ -55,7 +55,7 @@
     background: repeating-linear-gradient(
       135deg,
       transparent 0 22px,
-      rgba(244,247,245,.05) 22px 23px
+      rgba(232,160,180,.05) 22px 23px
     );
   }
 
