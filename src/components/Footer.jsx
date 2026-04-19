@@ -11,7 +11,7 @@ const NAV = [
 
 export function Footer() {
   return (
-    <footer className="bg-[#111d17] text-white/65 pt-20 pb-8 text-[14px]">
+    <footer className="bg-[#0f1a28] text-white/65 pt-20 pb-8 text-[14px]">
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
         <div className="grid grid-cols-1 gap-12 mb-16 md:grid-cols-[1.3fr_1fr_1fr] md:gap-16">
           {/* Brand */}
