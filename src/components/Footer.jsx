@@ -1,24 +1,31 @@
+import { Link } from 'react-router-dom'
 import { waLink } from '../lib/wa'
 
 const NAV = [
-  { href: '#sobre',       label: 'Sobre a Dra. Viviane' },
-  { href: '#problema',    label: 'Assimetria craniana' },
-  { href: '#servicos',    label: 'Fisioterapia e reposicionamento' },
-  { href: '#ortese',      label: 'Órtese Craniana 3D Cmoon' },
-  { href: '#faq',         label: 'Perguntas frequentes' },
-  { href: '#agendar',     label: 'Agendar avaliação' },
+  { href: '/#sobre',    label: 'Sobre a Dra. Viviane' },
+  { href: '/#problema', label: 'Assimetria craniana' },
+  { href: '/#servicos', label: 'Fisioterapia e reposicionamento' },
+  { href: '/#ortese',   label: 'Órtese Craniana 3D Cmoon' },
+  { href: '/#faq',      label: 'Perguntas frequentes' },
+  { href: '/#agendar',  label: 'Agendar avaliação' },
+]
+
+const PAGES = [
+  { to: '/assimetria-craniana-e-torcicolo', label: 'Assimetria Craniana e Torcicolo' },
+  { to: '/consultoria-do-sono',            label: 'Consultoria do Sono' },
+  { to: '/intervencao-precoce',            label: 'Intervenção Precoce' },
 ]
 
 export function Footer() {
   return (
     <footer className="bg-[#0f1a28] text-white/65 pt-20 pb-8 text-[14px]">
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
-        <div className="grid grid-cols-1 gap-12 mb-16 md:grid-cols-[1.3fr_1fr_1fr] md:gap-16">
+        <div className="grid grid-cols-1 gap-12 mb-16 md:grid-cols-[1.4fr_1fr_1fr_1fr] md:gap-10">
           {/* Brand */}
           <div>
             <p className="font-head text-[26px] text-white font-semibold mb-4">Viviane Leite</p>
             <p className="max-w-[34ch] leading-[1.65]">
-              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA).
+              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA) e Aracaju (SE).
             </p>
           </div>
 
@@ -34,17 +41,39 @@ export function Footer() {
             </ul>
           </div>
 
+          {/* Tratamentos */}
+          <div>
+            <h5 className="text-[11px] tracking-[0.14em] uppercase text-sage-light font-semibold mb-5">Tratamentos</h5>
+            <ul className="list-none p-0 m-0 space-y-2">
+              {PAGES.map(({ to, label }) => (
+                <li key={to}>
+                  <Link to={to} className="text-white/65 hover:text-sage-light transition-colors">{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h5 className="text-[11px] tracking-[0.14em] uppercase text-sage-light font-semibold mb-5">Contato</h5>
             <ul className="list-none p-0 m-0 space-y-2">
               <li>
-                <a href={waLink('geral')} target="_blank" rel="noopener noreferrer" className="text-white/65 hover:text-sage-light transition-colors">
+                <a
+                  href={waLink('geral')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/65 hover:text-sage-light transition-colors"
+                >
                   WhatsApp: (71) [ ]
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white/65 hover:text-sage-light transition-colors">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/65 hover:text-sage-light transition-colors"
+                >
                   Instagram: @vivianefisio
                 </a>
               </li>

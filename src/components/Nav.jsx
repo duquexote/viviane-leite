@@ -1,6 +1,27 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { WaIcon } from './WaIcon'
 import { waLink } from '../lib/wa'
+
+const TREATMENTS = [
+  { to: '/assimetria-craniana-e-torcicolo', label: 'Assimetria Craniana e Torcicolo' },
+  { to: '/consultoria-do-sono',            label: 'Consultoria do Sono' },
+  { to: '/intervencao-precoce',            label: 'Intervenção Precoce' },
+]
+
+const SECTION_LINKS = [
+  { href: '/#sobre',    label: 'Sobre Mim' },
+  { href: '/#problema', label: 'Assimetria' },
+  { href: '/#processo', label: 'Como funciona' },
+  { href: '/#faq',      label: 'FAQ' },
+]
+
+const MOBILE_SECTION_LINKS = [
+  { href: '/#sobre',    label: 'Sobre a Dra. Viviane' },
+  { href: '/#problema', label: 'Assimetria Craniana' },
+  { href: '/#processo', label: 'Como funciona' },
+  { href: '/#faq',      label: 'Perguntas Frequentes' },
+]
 
 export function Nav() {
   const [open, setOpen] = useState(false)
@@ -10,31 +31,53 @@ export function Nav() {
       <nav className="sticky top-0 z-50 bg-white/94 backdrop-blur-[12px] border-b border-border">
         <div className="max-w-[1340px] mx-auto px-[clamp(20px,4vw,56px)] flex items-center justify-between h-[68px]">
           {/* Brand */}
-          <a href="#top" className="flex items-center gap-3 font-head text-[20px] tracking-[-0.01em] font-semibold text-ink">
-            <span
-              className="w-7 h-7 rounded-full bg-sage relative shrink-0"
-              style={{}}
-              aria-hidden="true"
-            >
+          <Link
+            to="/"
+            className="flex items-center gap-3 font-head text-[20px] tracking-[-0.01em] font-semibold text-ink"
+          >
+            <span className="w-7 h-7 rounded-full bg-sage relative shrink-0" aria-hidden="true">
               <span className="absolute inset-[6px_4px_12px_8px] bg-white rounded-[50%_50%_40%_50%]" />
             </span>
             Viviane Leite{' '}
             <em className="not-italic font-normal text-ink-soft text-[13px] font-body tracking-[0.02em]">
               — fisioterapia pediátrica
             </em>
-          </a>
+          </Link>
 
           {/* Desktop links */}
-          <div className="hidden md:flex gap-7 text-sm text-ink-mid font-medium">
-            {['#sobre', '#problema', '#servicos', '#processo', '#faq'].map((href, i) => (
+          <div className="hidden md:flex gap-7 text-sm text-ink-mid font-medium items-center">
+            {SECTION_LINKS.map(({ href, label }) => (
               <a
                 key={href}
                 href={href}
                 className="tracking-[0.01em] hover:text-sage-dark transition-colors"
               >
-                {['Sobre Mim', 'Assimetria', 'Tratamentos', 'Como funciona', 'FAQ'][i]}
+                {label}
               </a>
             ))}
+
+            {/* Tratamentos dropdown */}
+            <div className="relative group">
+              <button className="flex items-center gap-1.5 tracking-[0.01em] hover:text-sage-dark transition-colors bg-transparent border-none cursor-pointer text-sm font-medium text-ink-mid p-0">
+                Tratamentos
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="translate-y-px" aria-hidden="true">
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-150 z-50">
+                <div className="bg-white border border-border shadow-[0_8px_32px_rgba(26,46,37,.12)] rounded-lg p-2 min-w-[272px]">
+                  {TREATMENTS.map(({ to, label }) => (
+                    <Link
+                      key={to}
+                      to={to}
+                      className="block px-4 py-2.5 rounded-md text-[13.5px] font-medium text-ink-mid hover:bg-sage-pale hover:text-sage-dark transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* CTA */}
@@ -63,17 +106,32 @@ export function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="fixed top-[68px] left-0 right-0 bg-white border-t border-border shadow-[0_8px_32px_rgba(26,46,37,.10)] z-49 p-5 flex flex-col gap-1">
-          {['#sobre', '#problema', '#servicos', '#diferenciais', '#processo', '#faq'].map((href, i) => (
+        <nav className="fixed top-[68px] left-0 right-0 bg-white border-t border-border shadow-[0_8px_32px_rgba(26,46,37,.10)] z-40 p-5 flex flex-col gap-1 overflow-y-auto max-h-[calc(100vh-68px)]">
+          {MOBILE_SECTION_LINKS.map(({ href, label }) => (
             <a
               key={href}
               href={href}
               onClick={() => setOpen(false)}
               className="px-4 py-3 rounded-lg text-ink-soft font-medium hover:bg-sage-pale hover:text-sage-dark transition-colors"
             >
-              {['Sobre a Dra. Viviane', 'Assimetria Craniana', 'Tratamentos', 'Diferenciais', 'Como funciona', 'Perguntas Frequentes'][i]}
+              {label}
             </a>
           ))}
+          <div className="border-t border-border mt-2 pt-3">
+            <p className="px-4 text-[11px] tracking-[0.14em] uppercase text-ink-soft font-semibold mb-1">
+              Tratamentos
+            </p>
+            {TREATMENTS.map(({ to, label }) => (
+              <Link
+                key={to}
+                to={to}
+                onClick={() => setOpen(false)}
+                className="block px-4 py-3 rounded-lg text-ink-soft font-medium hover:bg-sage-pale hover:text-sage-dark transition-colors"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
           <a
             href={waLink('geral')}
             target="_blank"

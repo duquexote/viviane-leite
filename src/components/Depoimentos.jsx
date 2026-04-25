@@ -47,10 +47,6 @@ export function Depoimentos() {
             </Reveal>
           ))}
         </div>
-
-        <p className="mt-9 text-[13px] text-ink-soft tracking-[0.05em] font-medium">
-          [solicitar à Dra. Viviane: ao menos 4 depoimentos reais + fotos antes/depois com autorização]
-        </p>
       </div>
     </section>
   )
