@@ -25,11 +25,6 @@ export function CTAFinal() {
       <div className="relative z-10 max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
         <div className="grid grid-cols-1 gap-12 items-start lg:grid-cols-[1.2fr_1fr] lg:gap-[72px]">
           <Reveal>
-            <div className="flex items-baseline gap-3.5 text-[12px] tracking-[0.14em] uppercase text-sage-light/80 font-medium mb-7">
-              <span className="inline-block w-9 h-px bg-current shrink-0 -translate-y-0.5" aria-hidden="true" />
-              10 · Agendar
-            </div>
-
             <h2 className="font-head text-[clamp(38px,5.4vw,70px)] leading-[1.05] font-semibold text-white max-w-[16ch] mb-6">
               A janela de tratamento do seu bebê{' '}
               <em className="italic text-sage-light font-medium">é agora.</em>
@@ -74,6 +69,16 @@ export function CTAFinal() {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div className="block">
+              <a
+                href={waLink('geral')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full font-semibold text-[14.5px] bg-white border border-border text-ink hover:bg-sage-pale transition-colors duration-200"
+              >
+                <WaIcon size={16} /> Agendar pelo WhatsApp
+              </a>
             </div>
           </Reveal>
         </div>

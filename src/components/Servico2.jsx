@@ -21,20 +21,14 @@ export function Servico2() {
     <section id="ortese" className="py-[clamp(72px,10vw,140px)] bg-ink text-white">
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
         {/* Header */}
-        <div className="grid grid-cols-1 gap-3 mb-14 md:grid-cols-[220px_1fr] md:gap-12 md:items-start">
-          <div className="flex items-baseline gap-3.5 text-[12px] tracking-[0.14em] uppercase text-gold-light/80 font-medium">
-            <span className="inline-block w-9 h-px bg-current shrink-0 -translate-y-0.5" aria-hidden="true" />
-            05 · Tratamento II
-          </div>
-          <div>
-            <span className="block text-[11px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-[18px]">
-              Órtese Craniana 3D Cmoon · 5 a 18 meses
-            </span>
-            <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white">
-              A tecnologia mais avançada para a correção da assimetria —{' '}
-              <em className="italic text-gold-light font-medium">feita sob medida para o seu bebê.</em>
-            </h2>
-          </div>
+        <div className="mb-14">
+          <span className="block text-[11px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-[18px]">
+            Órtese Craniana 3D Cmoon · 5 a 18 meses
+          </span>
+          <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white">
+            A tecnologia mais avançada para a correção da assimetria —{' '}
+            <em className="italic text-gold-light font-medium">feita sob medida para o seu bebê.</em>
+          </h2>
         </div>
 
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-[72px]">

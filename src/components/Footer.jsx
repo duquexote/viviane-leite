@@ -23,9 +23,9 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 mb-16 md:grid-cols-[1.4fr_1fr_1fr_1fr] md:gap-10">
           {/* Brand */}
           <div>
-            <p className="font-head text-[26px] text-white font-semibold mb-4">Viviane Leite</p>
+            <img src="/logo.svg" alt="Viviane Leite — fisioterapia pediátrica" className="h-14 mb-5" />
             <p className="max-w-[34ch] leading-[1.65]">
-              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA) e Aracaju (SE).
+              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA).
             </p>
           </div>
 

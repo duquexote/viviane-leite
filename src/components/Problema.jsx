@@ -25,25 +25,19 @@ export function Problema() {
     <section id="problema" className="py-[clamp(72px,10vw,140px)] border-t border-border bg-sage-pale">
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
         {/* Header */}
-        <div className="grid grid-cols-1 gap-3 mb-14 md:grid-cols-[220px_1fr] md:gap-12 md:items-start">
-          <div className="flex items-baseline gap-3.5 text-[12px] tracking-[0.14em] uppercase text-ink-soft font-medium">
-            <span className="inline-block w-9 h-px bg-current shrink-0 -translate-y-0.5" aria-hidden="true" />
-            03 · Entenda o problema
-          </div>
-          <div>
-            <span className="block text-[11px] tracking-[0.16em] uppercase text-sage-dark font-semibold mb-[18px]">
-              Educação / Diagnóstico
-            </span>
-            <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold">
-              A cabeça do seu bebê está diferente de um lado?{' '}
-              <em className="italic text-sage font-medium">Isso tem nome — e tem tratamento.</em>
-            </h2>
-            <p className="text-[18px] text-ink-soft max-w-[62ch] mt-5 leading-[1.65]">
-              A assimetria craniana é uma alteração no formato do crânio que pode surgir na gestação, no parto ou nos
-              primeiros meses de vida. Quando identificada cedo, tem tratamento eficaz e seguro — sem cirurgia, sem dor,
-              e com resultados comprovados.
-            </p>
-          </div>
+        <div className="mb-14">
+          <span className="block text-[11px] tracking-[0.16em] uppercase text-sage-dark font-semibold mb-[18px]">
+            Educação / Diagnóstico
+          </span>
+          <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold">
+            A cabeça do seu bebê está diferente de um lado?{' '}
+            <em className="italic text-sage font-medium">Isso tem nome — e tem tratamento.</em>
+          </h2>
+          <p className="text-[18px] text-ink-soft max-w-[62ch] mt-5 leading-[1.65]">
+            A assimetria craniana é uma alteração no formato do crânio que pode surgir na gestação, no parto ou nos
+            primeiros meses de vida. Quando identificada cedo, tem tratamento eficaz e seguro — sem cirurgia, sem dor,
+            e com resultados comprovados.
+          </p>
         </div>
 
         {/* Type cards */}

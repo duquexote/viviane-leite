@@ -110,6 +110,14 @@ export default function AssimetriaCraniana() {
                 <li>Após os 18 meses, a plasticidade craniana diminui significativamente e a correção fica muito mais difícil.</li>
               </ul>
             </div>
+            <a
+            href={waLink('assimetria')}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 px-7 py-4 rounded-full font-semibold text-[15px] bg-sage text-white shadow-[0_4px_18px_rgba(107,174,214,.35)] hover:bg-sage-dark hover:-translate-y-0.5 transition-all duration-200 mt-10"
+          >
+            <WaIcon size={16} /> Agendar Avaliação pelo WhatsApp
+          </a>
           </Reveal>
         </div>
       </section>
@@ -196,67 +204,14 @@ export default function AssimetriaCraniana() {
                 </ul>
               </div>
             </div>
-
-            {/* Valores */}
-            <div className="p-8 bg-sage-pale border border-border rounded-lg">
-              <p className="text-[10.5px] tracking-[0.16em] uppercase text-ink-soft font-semibold mb-4">
-                Investimento
-              </p>
-              {VALORES.map(({ label, price }) => (
-                <div
-                  key={label}
-                  className="flex justify-between items-baseline py-3.5 border-b border-dashed border-border gap-3 flex-wrap last:border-b-0"
-                >
-                  <span className="text-[14.5px] text-ink-mid">{label}</span>
-                  <span className="font-head text-[20px] italic font-semibold text-ink whitespace-nowrap">
-                    {price}
-                  </span>
-                </div>
-              ))}
-              <div className="mt-7">
-                <a
-                  href={waLink('assimetria')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-[14.5px] font-semibold bg-sage text-white shadow-[0_4px_18px_rgba(122,158,142,.32)] hover:bg-sage-dark hover:-translate-y-0.5 transition-all duration-200"
-                >
-                  <WaIcon size={15} /> Quero Agendar a Avaliação
-                </a>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* Por que escolher */}
-      <section className="py-[clamp(64px,9vw,120px)] border-t border-border bg-ink">
-        <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
-          <Reveal>
-            <h2 className="font-head text-[clamp(26px,3.5vw,44px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white mb-10">
-              Por que tratar com a{' '}
-              <em className="italic text-sage-light font-medium">Dra. Viviane Leite?</em>
-            </h2>
-            <ul className="list-none p-0 m-0 mb-12">
-              {POR_QUE.map((item, i) => (
-                <li key={i} className="flex items-start gap-4 py-4 border-t border-white/[0.08]">
-                  <span className="text-sage shrink-0 mt-0.5">◎</span>
-                  <span className="text-[16px] text-white/80 leading-[1.6]">{item}</span>
-                </li>
-              ))}
-            </ul>
-            <div className="flex flex-wrap items-center gap-4">
-              <a
-                href={waLink('assimetria')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full font-semibold text-[15px] bg-sage text-white hover:bg-sage-dark hover:-translate-y-0.5 transition-all duration-200"
-              >
-                <WaIcon size={15} /> Agendar Avaliação pelo WhatsApp
-              </a>
-              <Link to="/" className="text-[14px] text-white/50 hover:text-white/85 transition-colors">
-                ← Voltar para a página inicial
-              </Link>
-            </div>
+            <a
+            href={waLink('assimetria')}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 px-7 py-4 rounded-full font-semibold text-[15px] bg-sage text-white shadow-[0_4px_18px_rgba(107,174,214,.35)] hover:bg-sage-dark hover:-translate-y-0.5 transition-all duration-200"
+          >
+            <WaIcon size={16} /> Agendar Avaliação pelo WhatsApp
+          </a>
           </Reveal>
         </div>
       </section>

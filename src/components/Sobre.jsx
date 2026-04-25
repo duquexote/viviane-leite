@@ -13,20 +13,14 @@ export function Sobre() {
     <section id="sobre" className="py-[clamp(72px,10vw,140px)] border-t border-border bg-white">
       <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
         {/* Section header */}
-        <div className="grid grid-cols-1 gap-3 mb-14 md:grid-cols-[220px_1fr] md:gap-12 md:items-start">
-          <div className="flex items-baseline gap-3.5 text-[12px] tracking-[0.14em] uppercase text-ink-soft font-medium">
-            <span className="inline-block w-9 h-px bg-current shrink-0 -translate-y-0.5" aria-hidden="true" />
-            02 · Quem cuida
-          </div>
-          <div>
-            <span className="block text-[11px] tracking-[0.16em] uppercase text-sage-dark font-semibold mb-[18px]">
-              Quem cuida do seu bebê
-            </span>
-            <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold">
-              Mais de 20 anos dedicados ao{' '}
-              <em className="italic text-sage font-medium">desenvolvimento saudável dos bebês.</em>
-            </h2>
-          </div>
+        <div className="mb-14">
+          <span className="block text-[11px] tracking-[0.16em] uppercase text-sage-dark font-semibold mb-[18px]">
+            Quem cuida do seu bebê
+          </span>
+          <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold">
+            Mais de 20 anos dedicados ao{' '}
+            <em className="italic text-sage font-medium">desenvolvimento saudável dos bebês.</em>
+          </h2>
         </div>
 
         {/* Grid */}

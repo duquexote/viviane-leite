@@ -31,17 +31,8 @@ export function Nav() {
       <nav className="sticky top-0 z-50 bg-white/94 backdrop-blur-[12px] border-b border-border">
         <div className="max-w-[1340px] mx-auto px-[clamp(20px,4vw,56px)] flex items-center justify-between h-[68px]">
           {/* Brand */}
-          <Link
-            to="/"
-            className="flex items-center gap-3 font-head text-[20px] tracking-[-0.01em] font-semibold text-ink"
-          >
-            <span className="w-7 h-7 rounded-full bg-sage relative shrink-0" aria-hidden="true">
-              <span className="absolute inset-[6px_4px_12px_8px] bg-white rounded-[50%_50%_40%_50%]" />
-            </span>
-            Viviane Leite{' '}
-            <em className="not-italic font-normal text-ink-soft text-[13px] font-body tracking-[0.02em]">
-              — fisioterapia pediátrica
-            </em>
+          <Link to="/" className="flex items-center">
+            <img src="/logo-horizontal.svg" alt="Viviane Leite — fisioterapia pediátrica" className="h-12" />
           </Link>
 
           {/* Desktop links */}

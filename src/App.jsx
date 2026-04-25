@@ -26,10 +26,10 @@ function HomePage() {
       <Problema />
       <Servico1 />
       <Servico2 />
-      <Tratamentos />
       <Diferenciais />
       <Processo />
       <Depoimentos />
+      <Tratamentos />
       <FAQ />
       <CTAFinal />
     </main>
