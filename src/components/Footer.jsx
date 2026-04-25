@@ -18,7 +18,7 @@ export function Footer() {
           <div>
             <p className="font-head text-[26px] text-white font-semibold mb-4">Viviane Leite</p>
             <p className="max-w-[34ch] leading-[1.65]">
-              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA) e Aracaju (SE).
+              Fisioterapeuta pediátrica. Especialista em assimetria craniana. Atendimento presencial em Salvador (BA).
             </p>
           </div>
 
@@ -52,11 +52,6 @@ export function Footer() {
                 Salvador (BA)
                 <br />
                 <span className="text-[13px] text-white/45">Rua das Dálias, 262</span>
-              </li>
-              <li>
-                Aracaju (SE)
-                <br />
-                <span className="text-[13px] text-white/45">[adicionar endereço]</span>
               </li>
             </ul>
           </div>

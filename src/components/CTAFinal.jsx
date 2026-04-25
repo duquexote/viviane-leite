@@ -57,7 +57,7 @@ export function CTAFinal() {
             </div>
 
             <p className="mt-6 text-[11.5px] tracking-[0.1em] uppercase text-sage-light font-semibold">
-              Atendimento em Salvador (BA) e Aracaju (SE)
+              Atendimento em Salvador (BA)
             </p>
           </Reveal>
 
