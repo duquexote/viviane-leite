@@ -57,7 +57,7 @@ export function Hero() {
               {[
                 { num: '20+', title: 'Anos de experiência', sub: 'em fisioterapia pediátrica' },
                 { num: '3D',  title: 'Escaneamento tridimensional', sub: 'o único na Bahia para Cmoon' },
-                { num: 'BA·SE', title: 'Atendimento presencial', sub: 'Salvador e Aracaju' },
+                { num: 'BA', title: 'Atendimento presencial', sub: 'Salvador' },
                 { num: '600+', title: 'Famílias atendidas', sub: 'em mais de duas décadas' },
               ].map(({ num, title, sub }) => (
                 <div key={num} className="flex gap-3 text-[13.5px] leading-[1.35] text-white/88">

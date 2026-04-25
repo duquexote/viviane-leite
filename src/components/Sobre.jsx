@@ -4,7 +4,7 @@ const CREDS = [
   { n: '2005 →',   t: 'Fisioterapeuta pediátrica com atuação ininterrupta' },
   { n: 'Pioneira', t: 'Primeira profissional da Bahia com a Órtese Craniana 3D Cmoon' },
   { n: 'Especial.', t: 'Assimetria craniana, torcicolo congênito e desenvolvimento neuropsicomotor' },
-  { n: 'BA · SE',  t: 'Atendimento presencial em Salvador (BA) e Aracaju (SE)' },
+  { n: 'BA',  t: 'Atendimento presencial em Salvador (BA)' },
   { n: 'Lattes',   t: 'Currículo registrado na Plataforma Lattes / CNPq' },
 ]
 

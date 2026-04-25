@@ -32,7 +32,7 @@ export function Nav() {
                 href={href}
                 className="tracking-[0.01em] hover:text-sage-dark transition-colors"
               >
-                {['Sobre', 'Assimetria', 'Tratamentos', 'Como funciona', 'FAQ'][i]}
+                {['Sobre Mim', 'Assimetria', 'Tratamentos', 'Como funciona', 'FAQ'][i]}
               </a>
             ))}
           </div>

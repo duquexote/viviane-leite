@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     q: 'Você atende fora de Salvador?',
-    a: 'Sim. Atendo presencialmente em Salvador (BA) e em Aracaju (SE). Para famílias de outras cidades da Bahia, é possível realizar a avaliação inicial e retornos combinados conforme a necessidade.',
+    a: 'Não. Atendo apenas presencialmente em Salvador (BA). Para famílias de outras cidades da Bahia, é possível realizar a avaliação inicial e retornos combinados conforme a necessidade.',
   },
 ]
 

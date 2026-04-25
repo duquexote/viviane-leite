@@ -28,7 +28,7 @@ export function Servico2() {
           </div>
           <div>
             <span className="block text-[11px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-[18px]">
-              Órtese Craniana 3D Cmoon · 6 a 18 meses
+              Órtese Craniana 3D Cmoon · 5 a 18 meses
             </span>
             <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white">
               A tecnologia mais avançada para a correção da assimetria —{' '}
