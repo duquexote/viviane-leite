@@ -11,9 +11,9 @@ const STEPS = [
 
 const HIGHLIGHTS = [
   'Confeccionada em tecnologia 3D — maior precisão que órteses convencionais.',
-  'Mais leve e ventilada — mais conforto para o bebê durante o uso.',
+  'Mais leve e ventilada, com espuma interna macia e de alta qualidade — mais conforto para o bebê durante o uso.',
   'Escaneamento 3D a cada 3 semanas para monitorar a evolução com dados exatos.',
-  'Única profissional da Bahia a oferecer o tratamento completo com essa tecnologia.',
+  'Única profissional da Bahia a oferecer o tratamento completo com a órtese Cmoon',
 ]
 
 export function Servico2() {
@@ -23,7 +23,7 @@ export function Servico2() {
         {/* Header */}
         <div className="mb-14">
           <span className="block text-[11px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-[18px]">
-            Órtese Craniana 3D Cmoon · 5 a 18 meses
+            Órtese Craniana 3D Cmoon · 7 a 18 meses
           </span>
           <h2 className="font-head text-[clamp(30px,4vw,52px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white">
             A tecnologia mais avançada para a correção da assimetria —{' '}
@@ -35,10 +35,10 @@ export function Servico2() {
           <Reveal>
             <div className="border-t-2 border-gold-light/30 pt-7 mb-7">
               <p className="text-[12px] tracking-[0.14em] uppercase text-gold-light font-semibold mb-4">
-                6 — 18 meses · assimetria moderada a severa
+                7 — 18 meses · assimetria moderada a severa
               </p>
               <p className="text-[17px] text-white/80 leading-[1.68] max-w-[52ch]">
-                A partir dos 6 meses, o bebê ganha mobilidade — o que reduz a eficácia do reposicionamento. A Órtese
+                A partir dos 7 meses, o bebê ganha mobilidade e os ossos ficam mais calcificados e menos maleáveis — o que reduz a eficácia do reposicionamento. A Órtese
                 Craniana 3D Cmoon age como um guia de crescimento: cria espaço nas áreas achatadas e contém o crescimento
                 nas áreas proeminentes, direcionando o desenvolvimento para o formato simétrico. Monitorada a cada três
                 semanas com escaneamento 3D.
@@ -73,7 +73,6 @@ export function Servico2() {
             <div className="mt-8 p-7 bg-white/[0.06] border border-white/14 rounded-lg">
               <p className="text-[10.5px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-3.5">Investimento</p>
               {[
-                ['Avaliação com escaneamento 3D', 'R$ 310,00'],
                 ['Tratamento completo — à vista', 'R$ 13.700,00'],
                 ['Tratamento parcelado (até 10×)', 'R$ 15.000,00'],
               ].map(([label, value], i, arr) => (
@@ -83,7 +82,7 @@ export function Servico2() {
                 </div>
               ))}
               <p className="text-[12.5px] text-white/55 mt-3.5 leading-[1.5]">
-                Inclui avaliação, confecção da órtese e todos os escaneamentos de acompanhamento até a alta.
+              Inclui avaliação, todos os ajustes da órtese e os escaneamentos de acompanhamento até a alta
               </p>
               <div className="mt-5">
                 <a

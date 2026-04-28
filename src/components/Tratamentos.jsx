@@ -10,18 +10,18 @@ const CARDS = [
     desc: 'Diagnóstico preciso e tratamento especializado para as duas condições mais comuns nos primeiros meses de vida — com escaneamento 3D e plano individualizado.',
   },
   {
+    to: '/intervencao-precoce',
+    tag: 'Desenvolvimento infantil',
+    badge: '0 — 3 anos',
+    title: 'Estimulação Precoce',
+    desc: 'Acompanhamento especializado para bebês e crianças com atraso ou risco de atraso no desenvolvimento neuropsicomotor — com participação ativa da família.',
+  },
+  {
     to: '/consultoria-do-sono',
     tag: 'Para a família toda',
     badge: '0 — 5 anos',
     title: 'Consultoria do Sono',
     desc: 'Orientação especializada para construir rotinas de sono saudáveis e autônomas, respeitando o ritmo e a fase do seu bebê — sem métodos rígidos.',
-  },
-  {
-    to: '/intervencao-precoce',
-    tag: 'Desenvolvimento infantil',
-    badge: '0 — 3 anos',
-    title: 'Intervenção Precoce',
-    desc: 'Acompanhamento especializado para bebês e crianças com atraso ou risco de atraso no desenvolvimento neuropsicomotor — com participação ativa da família.',
   },
 ]
 

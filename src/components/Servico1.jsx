@@ -28,7 +28,7 @@ export function Servico1() {
           <Reveal>
             <div className="border-t-2 border-ink-mid pt-7 mb-7">
               <p className="text-[12px] tracking-[0.14em] uppercase text-sage-dark font-semibold mb-4">
-                0 — 6 meses · assimetria leve a moderada
+                0 — 6 meses · assimetria leve a severa
               </p>
               <p className="text-[17px] text-ink-mid leading-[1.68] max-w-[52ch]">
                 Para bebês de até 6 meses, a fisioterapia especializada combinada com técnicas de reposicionamento em
@@ -57,9 +57,9 @@ export function Servico1() {
                 <span className="font-head text-[22px] italic font-semibold text-ink">R$ 310,00</span>
               </div>
               <div className="flex justify-between items-baseline py-2.5 gap-3 flex-wrap">
-                <span className="text-[14.5px] text-ink-mid">Sessões de fisioterapia (mensal)</span>
+                <span className="text-[14.5px] text-ink-mid">Sessões de fisioterapia</span>
                 <span className="font-head text-[22px] italic font-semibold text-ink">
-                  R$ 310,00<span className="text-[14px] text-ink-soft font-normal font-body not-italic"> /mês</span>
+                  R$ 210,00
                 </span>
               </div>
               <p className="text-[12.5px] text-ink-soft mt-3.5 leading-[1.5]">
@@ -82,7 +82,7 @@ export function Servico1() {
           <Reveal>
             <div className="relative aspect-[4/5] bg-sage-pale border border-border rounded overflow-hidden">
               <img
-                src="/fisioterapia.png"
+                src="/fisioterapia.jpeg"
                 alt="Sessão de fisioterapia pediátrica"
                 className="absolute inset-0 w-full h-full object-cover"
               />

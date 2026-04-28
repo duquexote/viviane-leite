@@ -4,7 +4,7 @@ import { waLink } from '../lib/wa'
 
 const STEPS = [
   { n: '01', title: 'Contato pelo WhatsApp',        desc: 'Você entra em contato, me conta a situação do bebê e agendamos a avaliação. Respondo pessoalmente todas as mensagens.' },
-  { n: '02', title: 'Avaliação com escaneamento 3D', desc: 'Escaneamento tridimensional + avaliação clínica completa. Explico o diagnóstico com clareza, mostro o mapa do crânio e apresento o plano ideal.' },
+  { n: '02', title: 'Avaliação com escaneamento 3D', desc: 'Escaneamento tridimensional + avaliação clínica completa do bebê. Explico o diagnóstico com clareza, mostro o mapa do crânio e apresento o plano ideal.' },
   { n: '03', title: 'Início do tratamento',          desc: 'Dependendo da idade e do grau, iniciamos a fisioterapia e/ou o processo de confecção da órtese. Você recebe todas as orientações de casa.' },
   { n: '04', title: 'Acompanhamento e alta',         desc: 'Monitoro a evolução com escaneamentos regulares e faço os ajustes necessários até o resultado esperado — quando concedo a alta com segurança.' },
 ]

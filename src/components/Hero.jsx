@@ -22,7 +22,7 @@ export function Hero() {
           <Reveal>
             <p className="flex items-center gap-2.5 text-[11.5px] tracking-[0.18em] uppercase text-gold font-semibold mb-7
               before:inline-block before:w-7 before:h-px before:bg-gold">
-              Pioneira na Bahia · Escaneamento 3D
+              Escaneamento e Órtese Crâniana 3D
             </p>
 
             <h1 className="font-head text-[clamp(40px,6vw,80px)] leading-[1.05] tracking-[-0.025em] font-semibold text-white mb-7">
@@ -31,7 +31,7 @@ export function Hero() {
             </h1>
 
             <p className="text-[18px] text-white/82 max-w-[54ch] mb-9 leading-[1.7]">
-              Fisioterapia pediátrica com mais de 20 anos de experiência. Diagnóstico com escaneamento 3D
+              Fisioterapeuta pediátrica com mais de 20 anos de experiência. Diagnóstico com escaneamento 3D
               e tratamento individualizado — do reposicionamento à Órtese Craniana Cmoon.
             </p>
 

@@ -67,7 +67,7 @@ export default function ConsultoriaDoSono() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-7 py-4 rounded-full font-semibold text-[15px] bg-sage text-white shadow-[0_4px_18px_rgba(107,174,214,.35)] hover:bg-sage-dark hover:-translate-y-0.5 transition-all duration-200"
           >
-            <WaIcon size={16} /> Falar com a Dra. Viviane pelo WhatsApp
+            <WaIcon size={16} /> Falar com a Viviane pelo WhatsApp
           </a>
         </div>
       </section>
@@ -188,10 +188,10 @@ export default function ConsultoriaDoSono() {
           <Reveal>
             <h2 className="font-head text-[clamp(26px,3.5vw,44px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white mb-6">
               Por que fazer a consultoria com a{' '}
-              <em className="italic text-sage-light font-medium">Dra. Viviane?</em>
+              <em className="italic text-sage-light font-medium">Viviane?</em>
             </h2>
             <p className="text-[17px] text-white/70 leading-[1.75] max-w-[62ch] mb-5">
-              Sou fisioterapeuta pediátrica com mais de 20 anos de experiência no cuidado de bebês — o que me permite olhar para o sono com uma perspectiva mais ampla: desenvolvimento motor, neurológico, alimentar e emocional fazem parte do quadro.
+              Com mais de 20 anos de experiência no cuidado de bebês — o que me permite olhar para o sono com uma perspectiva mais ampla: desenvolvimento motor, neurológico, alimentar e emocional fazem parte do quadro.
             </p>
             <p className="text-[17px] text-white/70 leading-[1.75] max-w-[62ch] mb-12">
               A consultoria não é sobre método — é sobre o seu bebê. Cada plano é construído do zero, com escuta, ciência e respeito pelo ritmo de cada família.

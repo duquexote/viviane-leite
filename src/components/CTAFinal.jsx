@@ -70,16 +70,6 @@ export function CTAFinal() {
                 ))}
               </ul>
             </div>
-            <div className="block">
-              <a
-                href={waLink('geral')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full font-semibold text-[14.5px] bg-white border border-border text-ink hover:bg-sage-pale transition-colors duration-200"
-              >
-                <WaIcon size={16} /> Agendar pelo WhatsApp
-              </a>
-            </div>
           </Reveal>
         </div>
       </div>

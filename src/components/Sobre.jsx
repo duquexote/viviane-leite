@@ -41,14 +41,14 @@ export function Sobre() {
             <div className="space-y-[18px] text-[17.5px] leading-[1.68] text-ink-mid">
               <p>
                 Sou <strong>Viviane Leite</strong>, fisioterapeuta pediátrica formada e apaixonada por cuidar dos bebês
-                desde o início da vida. Atuo na área desde 2005 e me especializei no diagnóstico e tratamento de
+                desde o início da vida. Atuo na área desde 2005 com estimulação precoce e me especializei no diagnóstico e tratamento de
                 assimetrias cranianas — uma condição muito mais comum do que se imagina, e com solução quando identificada
                 no momento certo.
               </p>
               <p>
                 Fui a <strong>primeira fisioterapeuta da Bahia</strong> a oferecer o tratamento completo com a Órtese
                 Craniana 3D Cmoon, com avaliação e acompanhamento por escaneamento tridimensional — a tecnologia mais
-                precisa disponível hoje para o tratamento das assimetrias cranianas em bebês.
+                precisa disponível hoje para a avaliação das assimetrias cranianas em bebês.
               </p>
               <p>
                 Cada bebê é único. Por isso, trato cada caso com escuta ativa, tecnologia de ponta e um olhar clínico
