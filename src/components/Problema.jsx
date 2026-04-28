@@ -43,8 +43,8 @@ export function Problema() {
         {/* Type cards */}
         <div className="grid grid-cols-1 gap-5 mt-14 md:grid-cols-3">
           {TIPOS.map(({ name, desc, img }) => (
-            <Reveal key={name}>
-              <div className="bg-white border border-border rounded-xl p-7 flex flex-col min-h-[340px] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(26,46,37,.10)] hover:border-sage-light transition-all duration-200">
+            <Reveal key={name} className="h-full">
+              <div className="bg-white border border-border rounded-xl p-7 flex flex-col h-full min-h-[340px] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(26,46,37,.10)] hover:border-sage-light transition-all duration-200">
                 <div className="aspect-square bg-sage-pale rounded-lg mb-5 relative overflow-hidden">
                   <img
                     src={img}
