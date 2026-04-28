@@ -57,6 +57,10 @@ export function Servico2() {
               ))}
             </div>
 
+            <p className="text-[16px] tracking-[0.16em] uppercase text-gold-light font-semibold mb-6 mt-16">
+              Passo a Passo do tratamento com órtese Craniana
+            </p>
+
             <ol className="list-none p-0 m-0">
               {STEPS.map(({ n, title, desc }) => (
                 <li key={n} className="py-[22px] border-t border-white/15 grid grid-cols-[60px_1fr] gap-6 items-start last:border-b last:border-white/15">
@@ -82,7 +86,7 @@ export function Servico2() {
                 </div>
               ))}
               <p className="text-[12.5px] text-white/55 mt-3.5 leading-[1.5]">
-              Inclui avaliação, todos os ajustes da órtese e os escaneamentos de acompanhamento até a alta
+                Inclui avaliação, todos os ajustes da órtese e os escaneamentos de acompanhamento até a alta
               </p>
               <div className="mt-5">
                 <a
