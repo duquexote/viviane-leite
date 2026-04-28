@@ -13,10 +13,10 @@ const INDICACOES = [
 ]
 
 const MARCOS = [
-  { faixa: '0 a 3 meses',   desc: 'controle inicial da cabeça, seguimento visual, reações ao som' },
-  { faixa: '3 a 6 meses',   desc: 'sustentação da cabeça, rolar, alcance e preensão de objetos' },
-  { faixa: '6 a 9 meses',   desc: 'sentar com apoio, transferência de objetos entre as mãos, início do engatinhar' },
-  { faixa: '9 a 12 meses',  desc: 'sentar sem apoio, engatinhar, ficar em pé com suporte, primeiras palavras' },
+  { faixa: '0 a 3 meses', desc: 'controle inicial da cabeça, seguimento visual, reações ao som' },
+  { faixa: '3 a 6 meses', desc: 'sustentação da cabeça, rolar, alcance e preensão de objetos' },
+  { faixa: '6 a 9 meses', desc: 'sentar com apoio, transferência de objetos entre as mãos, início do engatinhar' },
+  { faixa: '9 a 12 meses', desc: 'sentar sem apoio, engatinhar, ficar em pé com suporte, primeiras palavras' },
   { faixa: '12 a 18 meses', desc: 'primeiros passos, comunicação, exploração ativa do ambiente' },
 ]
 
@@ -66,7 +66,7 @@ export default function IntervencaoPrecoce() {
             Cada marco do desenvolvimento é uma conquista — e você pode ajudar
           </span>
           <h1 className="font-head text-[clamp(32px,5vw,60px)] leading-[1.08] tracking-[-0.022em] font-semibold text-white max-w-[20ch] mb-6">
-            Intervenção Precoce:{' '}
+            Estimulação Precoce:{' '}
             <em className="italic text-sage-light font-medium">
               acompanhamento especializado para o desenvolvimento do seu bebê.
             </em>
