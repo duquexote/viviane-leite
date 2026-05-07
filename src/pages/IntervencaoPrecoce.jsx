@@ -93,10 +93,10 @@ export default function IntervencaoPrecoce() {
               <div>
                 <h2 className="font-head text-[clamp(26px,3.5vw,44px)] leading-[1.1] tracking-[-0.018em] font-semibold mb-6">
                   O que é a{' '}
-                  <em className="italic text-sage font-medium">Intervenção Precoce?</em>
+                  <em className="italic text-sage font-medium">Estimulação Precoce?</em>
                 </h2>
                 <p className="text-[17px] text-ink-mid leading-[1.7] mb-5">
-                  A Intervenção Precoce é um conjunto de ações terapêuticas voltadas para bebês e crianças de 0 a 3 anos que apresentam — ou têm risco de apresentar — atrasos no desenvolvimento neuropsicomotor.
+                  A Estimulação Precoce é um conjunto de ações terapêuticas voltadas para bebês e crianças de 0 a 3 anos que apresentam — ou têm risco de apresentar — atrasos no desenvolvimento neuropsicomotor.
                 </p>
                 <p className="text-[17px] text-ink-mid leading-[1.7]">
                   Diferente do que o nome pode sugerir, não se trata de "adiantar" o desenvolvimento ou de treinar o bebê para atingir marcos antes do tempo. O objetivo é criar as condições certas para que cada criança desenvolva suas capacidades motoras, cognitivas, sociais e emocionais com qualidade e dentro do seu ritmo individual.
@@ -104,7 +104,7 @@ export default function IntervencaoPrecoce() {
               </div>
               <div>
                 <h3 className="font-head text-[20px] font-medium text-ink mb-5">
-                  Quando a Intervenção Precoce é indicada?
+                  Quando a Estimulação Precoce é indicada?
                 </h3>
                 <ul className="list-none p-0 m-0">
                   {INDICACOES.map((item, i) => (
@@ -135,7 +135,7 @@ export default function IntervencaoPrecoce() {
                 Os marcos do desenvolvimento são habilidades que a maioria dos bebês adquire dentro de faixas etárias esperadas — como sustentar a cabeça, rolar, sentar, engatinhar, ficar em pé e dar os primeiros passos. Eles refletem a maturidade do sistema nervoso central e do desenvolvimento muscular.
               </p>
               <p>
-                Quando um marco não é atingido no tempo esperado, isso pode indicar que o sistema nervoso ou muscular precisa de estimulação direcionada. A intervenção precoce age exatamente nesse ponto — antes que o atraso se consolide e se torne mais difícil de reverter.
+                Quando um marco não é atingido no tempo esperado, isso pode indicar que o sistema nervoso ou muscular precisa de estimulação direcionada. A Estimulação Precoce age exatamente nesse ponto — antes que o atraso se consolide e se torne mais difícil de reverter.
               </p>
             </div>
 
@@ -162,7 +162,7 @@ export default function IntervencaoPrecoce() {
           <Reveal>
             <h2 className="font-head text-[clamp(28px,3.5vw,46px)] leading-[1.1] tracking-[-0.018em] font-semibold mb-12">
               Como funciona o atendimento de{' '}
-              <em className="italic text-sage font-medium">Intervenção Precoce?</em>
+              <em className="italic text-sage font-medium">Estimulação Precoce?</em>
             </h2>
             <ol className="list-none p-0 m-0">
               {PASSOS.map(({ n, title, desc }) => (
@@ -189,7 +189,7 @@ export default function IntervencaoPrecoce() {
         <div className="max-w-[1200px] mx-auto px-[clamp(20px,4vw,56px)]">
           <Reveal>
             <h2 className="font-head text-[clamp(26px,3.5vw,44px)] leading-[1.1] tracking-[-0.018em] font-semibold text-white mb-10">
-              Por que fazer Intervenção Precoce com a{' '}
+              Por que fazer Estimulação Precoce com a{' '}
               <em className="italic text-sage-light font-medium">Dra. Viviane?</em>
             </h2>
             <ul className="list-none p-0 m-0 mb-12">

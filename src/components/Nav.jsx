@@ -5,22 +5,22 @@ import { waLink } from '../lib/wa'
 
 const TREATMENTS = [
   { to: '/assimetria-craniana-e-torcicolo', label: 'Assimetria Craniana e Torcicolo' },
-  { to: '/consultoria-do-sono',            label: 'Consultoria do Sono' },
-  { to: '/intervencao-precoce',            label: 'Intervenção Precoce' },
+  { to: '/intervencao-precoce', label: 'Estimulação Precoce' },
+  { to: '/consultoria-do-sono', label: 'Consultoria do Sono' }
 ]
 
 const SECTION_LINKS = [
-  { href: '/#sobre',    label: 'Sobre Mim' },
+  { href: '/#sobre', label: 'Sobre Mim' },
   { href: '/#problema', label: 'Assimetria' },
   { href: '/#processo', label: 'Como funciona' },
-  { href: '/#faq',      label: 'FAQ' },
+  { href: '/#faq', label: 'FAQ' },
 ]
 
 const MOBILE_SECTION_LINKS = [
-  { href: '/#sobre',    label: 'Sobre a Dra. Viviane' },
+  { href: '/#sobre', label: 'Sobre a Dra. Viviane' },
   { href: '/#problema', label: 'Assimetria Craniana' },
   { href: '/#processo', label: 'Como funciona' },
-  { href: '/#faq',      label: 'Perguntas Frequentes' },
+  { href: '/#faq', label: 'Perguntas Frequentes' },
 ]
 
 export function Nav() {
