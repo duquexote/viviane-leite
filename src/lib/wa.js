@@ -1,4 +1,4 @@
-const WA_NUMBER = '5571999999999'
+const WA_NUMBER = '557188298506'
 
 const MESSAGES = {
   fisio: 'Olá! Vi o anúncio sobre o tratamento de assimetria craniana para bebês. Meu filho tem menos de 6 meses e gostaria de saber mais sobre a avaliação.',
