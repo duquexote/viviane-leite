@@ -52,15 +52,9 @@ export function Servico1() {
             {/* Price */}
             <div className="mt-8 p-7 bg-sage-pale border border-border rounded-lg">
               <p className="text-[10.5px] tracking-[0.16em] uppercase text-ink-soft font-semibold mb-3.5">Investimento</p>
-              <div className="flex justify-between items-baseline py-2.5 border-b border-dashed border-border gap-3 flex-wrap">
-                <span className="text-[14.5px] text-ink-mid">Avaliação com escaneamento 3D</span>
-                <span className="font-head text-[22px] italic font-semibold text-ink">R$ 310,00</span>
-              </div>
               <div className="flex justify-between items-baseline py-2.5 gap-3 flex-wrap">
-                <span className="text-[14.5px] text-ink-mid">Sessões de fisioterapia</span>
-                <span className="font-head text-[22px] italic font-semibold text-ink">
-                  R$ 210,00
-                </span>
+                <span className="text-[14.5px] text-ink-mid">Avaliação fisioterapêutica com escaneamento 3D</span>
+                <span className="font-head text-[22px] italic font-semibold text-ink">R$ 310,00</span>
               </div>
               <p className="text-[12.5px] text-ink-soft mt-3.5 leading-[1.5]">
                 Inclui escaneamento inicial, plano de tratamento personalizado e orientações de reposicionamento.
