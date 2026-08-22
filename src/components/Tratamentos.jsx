@@ -16,13 +16,6 @@ const CARDS = [
     title: 'Estimulação Precoce',
     desc: 'Acompanhamento especializado para bebês e crianças com atraso ou risco de atraso no desenvolvimento neuropsicomotor — com participação ativa da família.',
   },
-  {
-    to: '/consultoria-do-sono',
-    tag: 'Para a família toda',
-    badge: '0 — 5 anos',
-    title: 'Consultoria do Sono',
-    desc: 'Orientação especializada para construir rotinas de sono saudáveis e autônomas, respeitando o ritmo e a fase do seu bebê — sem métodos rígidos.',
-  },
 ]
 
 export function Tratamentos() {
@@ -39,7 +32,7 @@ export function Tratamentos() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border rounded overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border rounded overflow-hidden">
           {CARDS.map(({ to, tag, badge, title, desc }) => (
             <Reveal key={to}>
               <Link

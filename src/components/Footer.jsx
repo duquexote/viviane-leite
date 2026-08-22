@@ -12,7 +12,6 @@ const NAV = [
 
 const PAGES = [
   { to: '/assimetria-craniana-e-torcicolo', label: 'Assimetria Craniana e Torcicolo' },
-  { to: '/consultoria-do-sono',            label: 'Consultoria do Sono' },
   { to: '/intervencao-precoce',            label: 'Intervenção Precoce' },
 ]
 

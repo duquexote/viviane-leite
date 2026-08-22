@@ -6,7 +6,6 @@ import { waLink } from '../lib/wa'
 const TREATMENTS = [
   { to: '/assimetria-craniana-e-torcicolo', label: 'Assimetria Craniana e Torcicolo' },
   { to: '/intervencao-precoce', label: 'Estimulação Precoce' },
-  { to: '/consultoria-do-sono', label: 'Consultoria do Sono' }
 ]
 
 const SECTION_LINKS = [

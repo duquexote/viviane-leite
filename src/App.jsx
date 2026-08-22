@@ -15,7 +15,6 @@ import { Footer }       from './components/Footer'
 import { FloatingWA }   from './components/FloatingWA'
 import { ScrollToTop }  from './components/ScrollToTop'
 import AssimetriaCraniana from './pages/AssimetriaCraniana'
-import ConsultoriaDoSono  from './pages/ConsultoriaDoSono'
 import IntervencaoPrecoce from './pages/IntervencaoPrecoce'
 
 function HomePage() {
@@ -44,7 +43,6 @@ export default function App() {
       <Routes>
         <Route path="/"                               element={<HomePage />} />
         <Route path="/assimetria-craniana-e-torcicolo" element={<AssimetriaCraniana />} />
-        <Route path="/consultoria-do-sono"            element={<ConsultoriaDoSono />} />
         <Route path="/intervencao-precoce"            element={<IntervencaoPrecoce />} />
       </Routes>
       <Footer />
